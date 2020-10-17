@@ -1,0 +1,556 @@
+*{
+	margin: 0;
+	padding: 0;
+	font-family: poppins;
+}
+
+/***************************************Navbar starts***********************************/
+
+.navbar{
+	width: 100%;
+	background-color: #EAAD00;
+}
+.navbar ul li{
+	margin: 0 15px;
+}
+.navbar ul li a{
+	font-weight: 600;
+	font-size: 21px;
+	color: white !important;
+}
+.navbar form{
+	margin-left: -20px;
+}
+.navbar .search{
+	border-radius: 0;
+	border: none;
+	background-color: #FFC400;
+	color: white;
+	width: 60%;
+	box-shadow: -1px 5px 6px 1px  black;
+}
+.navbar .search .placeholder{
+	color: white;
+
+}
+.navbar .search:focus{
+	border: none;
+}
+.navbar .btn{
+	border-radius: 0;
+	border: none;
+	background-color: #00BFCA;
+    padding-left: 17px;
+    padding-right: 17px;
+}
+.navbar .btn:hover{
+	background-color: #03a3ad;
+
+}
+.navbar .btn i{
+	color: white;
+}
+/***************************************Navbar ends***********************************/
+
+
+
+
+/***************************************Banner starts***********************************/
+.banner{
+	height: 100vh;
+	padding-top: 150px;
+	background-color: #FFC400;
+}
+.banner h1{
+	font-size: 56px;
+    font-weight: 600;
+    color: white;
+}
+.banner p{
+	color: white;
+	font-size: 21px;
+	font-weight: 500;
+}
+.banner .btn-1{
+	padding: 08px 20px;
+	background-color: #00BFCA;
+	color: white;
+	border: none;
+	border-radius: 4px;
+	outline: none;
+	font-weight: 600;
+}
+.banner .btn-1:hover{
+	background-color: #038890;
+	color: #bdb9b9;
+	transition: .5s ease-in-out;
+}
+.banner .btn-2{
+	margin-left: 20px;
+	padding: 06px 20px;
+	background-color: transparent;
+	color: white;
+	border: 2px solid white;
+	border-radius: 4px;
+	outline: none;
+	font-size: 17px;
+	font-weight: 600;
+}
+.banner .btn-2:hover{
+	background-color: transparent;
+	color: black;
+	border: 2px solid #bdb9b9;
+	transition: .2s ease-in-out;
+}
+.banner img{
+	width: 66%;
+	margin-top: -80px;
+	margin-left: 100px;
+}
+/***************************************Banner ends***********************************/
+
+
+
+/***************************************Section-1 starts***********************************/
+.section-1{
+	height: 150vh;
+	padding-top: 150px;
+	background-color: white;
+}
+.section-1 h1{
+	font-size: 56px;
+    font-weight: 600;
+    color: black;
+	line-height: 50px;
+}
+.section-1 p{
+	color: black;
+	font-size: 21px;
+	font-weight: 500;
+	line-height: 22px;
+}
+.section-1 .btn-1{
+	padding: 08px 20px;
+	background-color: #FFC302;
+	color: white;
+	border: none;
+	border-radius: 4px;
+	outline: none;
+	font-weight: 600;
+}
+.section-1 .btn-1:hover{
+	background-color: #038890;
+	color: #bdb9b9;
+	transition: .5s ease-in-out;
+}
+.section-1 .video{
+	position: relative;
+	z-index: 1000;
+}
+.section-1 img{
+	width: 85%;
+    height: 366px;
+    position: absolute;
+}
+.section-1 .overlay{
+	position: absolute;
+	background-color: #FFC302;
+	width: 85%;
+    height: 366px;
+	opacity: .6;
+	z-index: 1000;
+}
+.section-1 i{
+	font-size: 31px;
+    background-color: white;
+    color: #FFC400;
+    padding: 12px 13px 12px 19px;
+    border-radius: 50%;
+    margin-left: 165px;
+    margin-top: 157px;
+    cursor: pointer;
+}
+.section-1 .box{
+    height: 165px;
+    width: 195px;
+    position: absolute;
+    background-color: #FFC400;
+    margin-top: 100px;
+    margin-top: 229px;
+    margin-left: -27px;
+}
+/***************************************Section-1 ends***********************************/
+
+
+/***************************************Section-2 starts***********************************/
+.section-2{
+	height: 150vh;
+	margin-top: 250px;
+	padding-top: 70px;
+	background-color: #FFC400;
+}
+.section-2 h1{
+	font-size: 56px;
+    font-weight: 600;
+    color: white;
+}
+.section-2 .title p{
+	color: white;
+	font-size: 21px;
+	font-weight: 500;
+	padding: 0 250px 100px 250px;
+
+}
+.section-2 img{
+	height: 311px;
+	width: 80%;
+	margin: 0 auto;
+}
+.section-2 .row h2{
+	color: white;
+    font-size: 36px;
+    margin-top: 344px;
+    margin-left: 63px;
+    font-weight: 600;
+}
+.section-2 .row p{
+	color: white;
+	font-size: 18px;
+	margin-left: 11px;
+	line-height: 18px;
+	margin-top: 22px;
+	
+
+}
+/***************************************Section-2 ends***********************************/
+
+
+/***************************************Section-3 starts***********************************/
+.section-3{
+	height: 150vh;
+	padding-top: 150px;
+	background-color: white;
+}
+.section-3 h1{
+	font-size: 56px;
+    font-weight: 600;
+    color: black;
+	line-height: 50px;
+	float: right;
+}
+.section-3 p{
+	color: black;
+	font-size: 21px;
+	font-weight: 500;
+	line-height: 22px;
+	float: right;
+	margin-top: 30px;
+    margin-bottom: 30px;
+}
+.section-3 .btn-1{
+	padding: 08px 20px;
+	background-color: #FFC302;
+	color: white;
+	border: none;
+	border-radius: 4px;
+	outline: none;
+	font-weight: 600;
+	float: right;
+	margin-right: 70px;
+}
+.section-3 .btn-1:hover{
+	background-color: #038890;
+	color: #bdb9b9;
+	transition: .5s ease-in-out;
+}
+.section-3 .video{
+	position: relative;
+	z-index: 1000;
+}
+.section-3 img{
+	width: 85%;
+    height: 366px;
+    position: absolute;
+}
+.section-3 .overlay{
+	position: absolute;
+	background-color: #FFC302;
+	width: 85%;
+    height: 366px;
+	opacity: .6;
+	z-index: 1000;
+}
+.section-3 i{
+	font-size: 31px;
+    background-color: white;
+    color: #FFC400;
+    padding: 12px 13px 12px 19px;
+    border-radius: 50%;
+    margin-left: 201px;
+    margin-top: 157px;
+    cursor: pointer;
+}
+.section-3 .box{
+    height: 165px;
+    width: 195px;
+    position: absolute;
+    background-color: #FFC400;
+    margin-top: 229px;
+    margin-left: 297px;
+}
+/***************************************Section-3 ends***********************************/
+
+
+/***************************************Section-4 starts***********************************/
+.section-4{
+	height: 140vh;
+	margin-top: 250px;
+	padding-top: 70px;
+	background-color: #FFC400;
+}
+.section-4 .title h1{
+	font-size: 56px;
+    font-weight: 600;
+    color: white;
+    margin-right: 420px; 
+    padding-bottom: 20px;
+}
+.section-4 .title p{
+	color: white;
+	font-size: 21px;
+	font-weight: 500;
+	padding: 0 250px 100px 250px;
+}
+.section-4 img{
+	width: 85%;
+    height: 322px;
+}
+.section-4 h2{
+    color: white;
+    font-size: 42px;
+    font-weight: 500;
+    margin-left: 45px;
+    margin-top: 350px;
+}
+.section-4 del{
+	width: 120%;
+	margin: 0 30px;
+}
+.section-4 button{
+	margin-top: 10px;
+	margin-left: 80px;
+	background-color: #00BFCA;
+	padding: 9px 45px;
+	border: none;
+	border-radius: 30px;
+	color: white;
+	font-weight: 600;
+}
+.section-4 button:hover{
+	background-color: #029aa2;
+	color: black;
+	font-weight: 600;
+	transition: .3s ease-in-out;
+
+}
+/***************************************Section-4 ends***********************************/
+
+
+
+/***************************************Section-5 starts***********************************/
+.section-5{
+	height: 150vh;
+	margin-top: 10px;
+	padding-top: 70px;
+}
+.section-5 .title h1{
+	font-size: 56px;
+    font-weight: 600;
+    color: black;
+    margin-right: 355px; 
+    padding-bottom: 20px;
+}
+.section-5 .title p{
+	color: black;
+	font-size: 21px;
+	font-weight: 500;
+	padding: 0 250px 100px 250px;
+}
+
+.section-5 img{
+	width: 85%;
+    height: 322px;
+}
+.section-5 h2{
+    color: black;
+    font-size: 34px;
+    font-weight: 600;
+    margin-left: 56px;
+    margin-top: 350px;
+    letter-spacing: -1.5px;
+}
+.section-5 h4{
+    color: black;
+    font-size: 26px;
+    font-weight: 500;
+    margin-left: 93px;
+    margin-top:-5px;
+    letter-spacing: -1px;
+}
+.section-5 .icons{
+	margin-left: 50px;
+	margin-top: 20px;
+}
+.section-5 i{
+	width: 10%;
+	margin: 0 6px;
+	padding: 10px 26px 10px 10px;
+	background-color: #FFC400;
+	color: white;
+	border-radius: 50%;
+	font-size: 20px;
+}
+
+/***************************************Section-5 ends***********************************/
+
+
+
+
+/***************************************Section-6 starts***********************************/
+.section-6{
+	position: relative;
+	height: 70vh;
+	background-image: url(img/bg.png);
+	width: 100%;
+	background-position: center;
+	background-size: cover;
+
+}
+.section-6 .overlapping{
+	position: absolute;
+	background-color: #FFC200;
+	width: 100%;
+	height: 100%;
+	opacity: .8; 
+}
+.section-6 i{
+	margin-top: 150px;
+	background-color: transparent;
+	color: white;
+	border-radius: 50%;
+	font-size: 60px;
+	margin-left: 0;
+}
+.section-6 h3{
+	color: white;
+	font-weight: 700;
+	letter-spacing: -1px;
+	font-size: 32px;
+
+}
+/***************************************Section-6 ends***********************************/
+
+
+/***************************************Section-7 starts***********************************/
+.section-7{
+	height: 100vh;
+	margin-top: 100px;
+}
+.section-7 .title p{
+    color: black;
+    font-size: 21px;
+    font-weight: 500;
+    padding: 0 250px 100px 250px;
+}
+.section-7 .card img{
+	width: 100%;
+	height: 250px;
+}
+.section-7 .card h4{
+    margin-top: 260px;
+    font-weight: 600;
+    font-size: 28px;
+}
+.section-7 .card h6{
+	color: #00a1ff;
+	font-weight: 500;
+}
+.section-7 .card p{
+	margin-top: 10px;
+	margin-bottom: 15px;
+	letter-spacing: -1px;
+	font-weight: 500;
+}
+.section-7 .card a{
+	background-color: transparent;
+	border: none;
+	color: #00a1ff;
+	padding-left: 0;
+	font-size: 21px;
+}
+/***************************************Section-7 ends***********************************/
+
+
+/***************************************footer Section starts***********************************/
+
+.footer{
+	background-color: #303030;
+	height: 100vh;
+	margin-top: 300px;
+	padding: 200px 0;
+}
+.footer h4{
+	color: white;
+	font-size: 36px;
+	font-weight: 500;
+	padding-bottom: 10px;
+}
+.footer h6{
+	color: #cccbcb;
+	font-size: 21px;
+	line-height: 21px;
+	cursor: pointer;
+}
+.footer .right h4{
+	float: right;
+	margin-bottom: 0;
+	padding-bottom: 7px;
+
+}	
+.footer .right h6{
+	float: right;
+	margin-top: 0;
+	padding-top: 0;
+}
+.footer .right input{
+	position: absolute;
+    background-color: #EAAD00;
+    border: none;
+    outline: none;
+    color: white;
+    margin: 90px 0px 0 245px;
+    padding: 9px 10px;
+}
+.footer .right button{
+
+}
+.footer .right .single i{
+    margin: 11px 0 0 458px;
+    padding: 4px 22px 7px 22px;
+    border: none;
+    outline: none;
+    border-radius: 0;
+    background-color: #00BFCA;
+    color: white;
+}
+.footer .right .icons {
+	margin-left: 290px;
+    margin-top: 21px;
+}
+.footer .right .icons i{
+	margin: 07px;
+	padding: 10px ;
+	font-size: 21px;
+	color: black;
+}
+/***************************************footer Section ends***********************************/
